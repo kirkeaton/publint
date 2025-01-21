@@ -6,6 +6,8 @@ import { formatMessage } from '../src/utils-node.js'
 
 const isWindowsCI = process.env.CI !== undefined && process.platform === 'win32'
 
+testFixture('excluded-private-subfolder', [])
+
 testFixture('exports-browser-conflict', [
   'EXPORTS_VALUE_CONFLICTS_WITH_BROWSER',
   'USE_EXPORTS_OR_IMPORTS_BROWSER',
