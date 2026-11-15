@@ -27,7 +27,7 @@
     "github-slugger": "^2.0.0",
     "svelte": "^5.56.6",
     "tinyexec": "^1.2.4",
-    "vite": "^8.1.5",
+    "vite": "^8.1.6",
     "vitepress": "^2.0.0-alpha.18",
     "vitest": "^4.1.10"
   }
